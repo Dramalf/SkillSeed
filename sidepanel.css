@@ -1,0 +1,69 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+      Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    color: #1f1f1f;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    padding: 8px;
+  }
+  .delete-icon{
+    position: fixed;
+    z-index: 10000;
+    top: 20px;
+    right:10px;
+    cursor: pointer;
+  }
+  .graph-container {
+    width:100%;
+    height: 68vh;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    /* background:url('./assets/bg.png') no-repeat center center; */
+    /* background-size: cover; */
+  }
+  .node-card{
+    min-height: calc(28vh - 28px);
+    .ant-card-body{
+      padding-top: 2px;
+    }
+  }
+
+  .label-input{
+    width: 40%;
+  }
+  .tag-area-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 8px;
+    .tags-wrapper{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: flex-start;
+      
+    }
+  }
+  .meme-container {
+    margin-top: 6px;
+    height: 100%;
+    padding: auto;
+    background: linear-gradient(135deg, #ffffff 0%, #fff2c852 100%); 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    flex-shrink: 1;
+    flex-grow: 1;
+  }
+  
+  .meme-text {
+    padding: 8px;
+    font-family: 'Comic Sans MS', 'Arial', sans-serif; /* 轻松幽默的字体 */
+    color: #37474f; /* 深色文本，易于阅读 */
+    text-align: center; /* 居中对齐，像 Meme 一样 */
+    font-weight: bold; /* 加粗，突显重点 */
+    letter-spacing: 1px; /* 字符间距，增强视觉舒适感 */
+    word-break: break-word; /* 防止长单词溢出 */
+  }
