@@ -4,13 +4,10 @@ import { storage } from "~background/db";
 import { extractKeyWords, recapRelationship } from '~background/workflow'
 function cleanText(input) {
     const onlyEnglish = input.replace(/[^\x00-\x7F]/g, '');
-    const regex = /[0-9\W_]+/g; // \W 匹配非单词字符，包括符号；_ 特意包含下划线
-    // 使用正则替换，所有匹配的字符替换为空格
+    const regex = /[0-9\W_]+/g; 
     return onlyEnglish.replace(regex, " ").replace(/\s+/g, " ").trim();
 }
 const handler: PlasmoMessaging.MessageHandler = async (req, res) => {
-    //   const message = await querySomeApi(req.body.id)
-
     let { title, url } = req.sender.tab;
     console.log('handle pageInfo', { title, url })
     let _url=new URL(url)

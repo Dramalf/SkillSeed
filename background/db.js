@@ -6,7 +6,7 @@ class IndexedDBStore {
         this.ready = this.init();
     }
 
-    // 初始化数据库
+    
     async init() {
         return new Promise((resolve, reject) => {
             const request = indexedDB.open(this.dbName, 1);
@@ -32,7 +32,7 @@ class IndexedDBStore {
     async clear() {
         try {
             const db = this.db;
-            const storeNames = Array.from(db.objectStoreNames); // 获取所有存储对象
+            const storeNames = Array.from(db.objectStoreNames); 
             if (storeNames.length === 0) {
                 console.log("No object stores to clear.");
                 return;
@@ -60,13 +60,13 @@ class IndexedDBStore {
         this.ready = this.init();
         await  this.ready ;
     }
-    // 设置数据
+    
     async set(key, value) {
         return new Promise((resolve, reject) => {
             const transaction = this.db.transaction(this.storeName, "readwrite");
             const store = transaction.objectStore(this.storeName);
 
-            // 将 key 和 value 存储
+            
             const data = { id: key, value: value };
             const request = store.put(data);
 
@@ -79,7 +79,7 @@ class IndexedDBStore {
             };
         });
     }
-    // 删除数据
+    
     async delete(key) {
         return new Promise((resolve, reject) => {
             const transaction = this.db.transaction(this.storeName, "readwrite");
@@ -93,7 +93,7 @@ class IndexedDBStore {
             };
         });
     }
-    // 获取数据
+    
     async get(key) {
         return new Promise((resolve, reject) => {
             const transaction = this.db.transaction(this.storeName, "readonly");

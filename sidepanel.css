@@ -60,10 +60,10 @@ body {
   
   .meme-text {
     padding: 8px;
-    font-family: 'Comic Sans MS', 'Arial', sans-serif; /* 轻松幽默的字体 */
-    color: #37474f; /* 深色文本，易于阅读 */
-    text-align: center; /* 居中对齐，像 Meme 一样 */
-    font-weight: bold; /* 加粗，突显重点 */
-    letter-spacing: 1px; /* 字符间距，增强视觉舒适感 */
-    word-break: break-word; /* 防止长单词溢出 */
+    font-family: 'Comic Sans MS', 'Arial', sans-serif; 
+    color: #37474f; 
+    text-align: center; 
+    font-weight: bold; 
+    letter-spacing: 1px; 
+    word-break: break-word; 
   }

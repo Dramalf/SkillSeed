@@ -4,7 +4,6 @@ import type { PlasmoMessaging } from "@plasmohq/messaging"
 
 
 const handler: PlasmoMessaging.MessageHandler = async (req, res) => {
-  //   const message = await querySomeApi(req.body.id)
   const { node,new_name,nodeLabels } = req.body;
   await storage.ready;
   let labels = await storage.get('labels')
