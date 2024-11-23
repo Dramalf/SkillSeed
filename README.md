@@ -1,12 +1,19 @@
 # The Story Behind SkillSeed - Google Chrome Built-in AI Challenge 🌟
+
+* Video demo: [Youtube](https://www.youtube.com/watch?v=B0bdoK4BdQg)
+
+
 # 🌟 Inspiration
 
 The idea for **SkillSeed** came from my personal journey of learning and growing as a developer. I often found myself jumping between different technologies—reading documentation, watching tutorials, or experimenting with code. However, it was hard to visualize my progress and see how all my skills interconnected.
 
 I wanted to create a tool that could not only **track my learning activities automatically** but also **visualize the relationships between skills** to provide a sense of achievement and direction. Inspired by the need for a more engaging and rewarding way to track progress, SkillSeed was born.
-<center>
-  <img src="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/149/657/datas/original.png" width="100">
-</center>
+
+<div align="center">
+    <img src="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/149/657/datas/original.png" width="100">
+
+</div>
+
 
 
 # 🍴What It Does
@@ -70,9 +77,9 @@ I shared SkillSeed with my peers, and when they saw the interconnected nodes of 
 Building SkillSeed was a rewarding experience that allowed me to combine my love for technology and learning into a practical tool. It taught me to think creatively about how to solve problems and stay focused on delivering value to the end user.
 
 Through SkillSeed, I hope to inspire others to take ownership of their learning journeys and celebrate their progress in a fun, visual way.
-<center>
-<img src="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/149/665/datas/original.png" height="300"></img>
-</center>
+<div align="center">
+<img src="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/149/665/datas/original.png" height="400"></img>
+</div>
 While working with Chrome's built-in AI API, I gained numerous insights that sparked my imagination about future AI workflows. When dealing with large-scale LLM tasks, I envision a centralized platform that could distribute tasks to browser endpoints across different devices, leveraging their idle computing power, and then aggregate the results.
 
 This distributed computing approach could revolutionize how we handle AI workloads, making efficient use of untapped computational resources in browsers worldwide. The potential for creating new systems and solutions in this space is incredibly exciting.
