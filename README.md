@@ -1,7 +1,7 @@
 # The Story Behind SkillSeed - Google Chrome Built-in AI Challenge 🌟
 
 * Video demo: [Youtube](https://www.youtube.com/watch?v=B0bdoK4BdQg)
-* Instruction:[Test steps]()
+* Instruction:[Test steps](https://github.com/Dramalf/SkillSeed/blob/main/INSTRUCTIONS.md)
 
 # 🌟 Inspiration
 
